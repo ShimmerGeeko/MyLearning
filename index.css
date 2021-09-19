@@ -1,0 +1,493 @@
+.box-shadow {
+  box-shadow: 0 2px 10px rgb(0 0 0 / 20%) !important;
+  border: 2px solid #ccc;
+}
+
+.schedulCall-checkbox-grid label {
+  margin-bottom: 0px !important;
+}
+.video-recording-button {
+  background-color: #1b489f;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  padding: 4px;
+}
+.MuiOutlinedInput-input {
+  padding: 10.5px 14px !important;
+}
+.with-opacity {
+  opacity: 0.65;
+}
+.swal-text {
+  text-align: justify !important;
+}
+
+.operator-small {
+  height: 120px !important;
+  width: 132px !important;
+}
+/* Countdown Start */
+.countdown {
+  text-transform: uppercase;
+  font-weight: bold !important;
+}
+
+.countdown span {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 3rem !important;
+  margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+  margin-left: 0;
+}
+
+.countdown-circles {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.countdown-circles span {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-circles span:first-of-type {
+  margin-left: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.bg-gradient-1 {
+  background: #7f7fd5;
+  background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+.bg-gradient-2 {
+  background: #654ea3;
+  background: -webkit-linear-gradient(to right, #654ea3, #eaafc8);
+  background: linear-gradient(to right, #654ea3, #eaafc8);
+}
+
+.bg-gradient-3 {
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff416c, #ff4b2b);
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.bg-gradient-4 {
+  background: #007991;
+  background: -webkit-linear-gradient(to right, #007991, #78ffd6);
+  background: linear-gradient(to right, #007991, #78ffd6);
+}
+
+.bg-gradient-5 {
+  /* background: #007991;
+    background: -webkit-linear-gradient(to right, #5033a0, #d9b8da);
+	background: linear-gradient(to right, #5033a0, #d9b8da); */
+  background: #f3f2f2;
+}
+
+.rounded {
+  border-radius: 1rem !important;
+}
+
+.btn-demo {
+  padding: 0.5rem 2rem !important;
+  border-radius: 30rem !important;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold !important;
+}
+
+.btn-demo:hover,
+.btn-demo:focus {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Countdown End */
+
+.headerName {
+  text-align: center;
+  margin: 8px 0 16px 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cardDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.bg_img {
+  background: url("./Images/tech1.png") center center/cover no-repeat;
+  width: 100%;
+  /* height: calc(100vh - 139px) !important; */
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  /* margin-top: 80px; */
+  justify-content: center;
+  overflow: auto;
+}
+
+.swal-icon img {
+  max-width: 25% !important;
+}
+
+.swal-modal {
+  width: 370px;
+  border-radius: 3px;
+}
+
+@keyframes blink_effect {
+  0% {
+    visibility: hidden;
+  }
+
+  50% {
+    visibility: hidden;
+  }
+
+  100% {
+    visibility: visible;
+  }
+}
+
+.blink {
+  animation: 0.9s blink_effect infinite;
+}
+
+.dispContent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mainDiv {
+  background-color: #fff;
+  width: 100%;
+  margin: 30px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.subDiv {
+  background-color: #fff;
+  width: 100%;
+
+  border: 1px solid rgb(0, 0, 0);
+  padding: 20px;
+}
+.hedCardName {
+  border: 1px solid #000;
+  background-color: blue;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+}
+.videoSty {
+  object-fit: contain;
+  position: relative;
+  min-height: 309px;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.local-video-inset {
+  height: auto !important;
+  width: 20% !important;
+  position: absolute;
+  bottom: 2.5%;
+  right: 3.5%;
+  padding: 0;
+  margin: 0;
+}
+.recordDiv {
+  position: absolute;
+  top: 0;
+  margin-left: 3%;
+  margin-top: 1%;
+  display: none;
+}
+.call_btnrow {
+  position: absolute;
+  bottom: 2%;
+}
+.btn-circle {
+  width: 10px !important;
+  /* height: 32px !important; */
+  background-color: #ffffff96 !important;
+  border: none;
+  outline: none !important;
+  overflow: hidden;
+  /* -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; */
+}
+
+.verifyCode {
+  border: 1px solid #ccc;
+  background-color: #2b982b !important;
+  color: #fff;
+  width: 100%;
+}
+.divVerify {
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 0.25rem !important;
+}
+
+.opbtn {
+  background-color: #1b489f !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 80%;
+}
+
+.cardDegn {
+  width: 100%;
+  display: flex;
+  padding: 10px 0px;
+  margin: 20px 1px;
+}
+
+.opHead {
+  background-color: #0000ff;
+  border: 1px solid grey;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.opCardsty {
+  box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bg-indigo {
+  /* background-color: #3F51B5 !important; */
+  color: #fff;
+}
+.cardIcon {
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.12);
+  width: 80px;
+}
+
+.cardContent {
+  display: inline-block;
+  padding: 7px 10px;
+}
+
+.sidegrid {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1px 5px;
+}
+
+.tblWidth {
+  width: 100%;
+}
+
+.MuiTableCell-root {
+  /* padding: 5px !important; */
+  padding: 5px 5px 5px 10px !important;
+  font-size: 0.8rem;
+  border-bottom: none !important;
+}
+
+.MuiTableHead-root > tr {
+  border-bottom: 2px solid #1f91f3;
+  background-color: #1b489f;
+  color: #fff;
+  font-weight: 700 !important;
+}
+
+.MuiTableHead-root > tr > th {
+  border: 1px solid rgba(224, 224, 224, 1);
+}
+
+.MuiTableRow-head > th {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  color: #000;
+  font-weight: 600;
+}
+
+.modelSty {
+  top: 23%;
+  left: 33%;
+  position: absolute;
+}
+
+.carddsg {
+  width: 40%;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+}
+.cardIconDiv {
+  border: 1px solid black;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  color: blue;
+}
+.smalltext {
+  font-size: 13px;
+  margin-top: 11px;
+  color: #555;
+}
+
+.texthed {
+  font-weight: normal;
+  font-size: 26px;
+  margin-top: -4px;
+  color: #555;
+}
+.contentDiv {
+  display: inline-block;
+  padding: 7px 16px;
+}
+.style_btn_left {
+  text-align: right !important;
+  padding-right: 20px !important;
+}
+.style_btn_right {
+  text-align: left !important;
+  padding-left: 20px !important;
+}
+
+.gridItemSppacing {
+  padding: 5px 10px;
+}
+.paper {
+  padding: 0px 4px 3px 4px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.paperNew {
+  padding: 0px 10px 10px 10px;
+  width: 100%;
+}
+.formControl {
+  margin: 2px;
+  width: 100%;
+}
+
+.MuiSelect-select {
+  font-size: 0.9rem !important;
+  text-align: left !important;
+}
+
+.formContainer {
+  border: 0.5px solid rgb(202, 195, 195);
+  padding: 1.6rem;
+  margin: 0.6rem !important;
+}
+
+.contentHeading {
+  text-align: left;
+  font-weight: 400;
+  color: #555555;
+  padding-left: 4px;
+}
+.headingDivider {
+  margin-top: 4px;
+
+  border: 1px solid #673ab7;
+}
+
+.switch.btn-lg {
+  min-width: 4.5rem !important;
+  line-height: 0.8 !important;
+  min-height: calc(1em + 0.75rem + 1.5px) !important;
+}
+.btn-lg {
+  padding: 0.5rem 1rem !important;
+  font-size: 0.8rem !important;
+  line-height: 1.5 !important;
+  border-radius: 0.3rem !important;
+}
+.switch-on.btn-lg {
+  font-size: 0.7rem !important;
+  padding: 4px 2px !important;
+}
+.switch-off.btn-lg {
+  font-size: 0.7rem !important;
+  padding: 5px 20px !important;
+}
+.MuiTab-textColorInherit.Mui-selected {
+  opacity: 1 !important;
+  background-color: #673ab7 !important;
+  color: #fff !important;
+}
+.MuiTab-root {
+  padding: 3px 10px !important;
+  font-size: 0.8rem !important;
+}
+/* .MuiAppBar-colorPrimary {
+  color: black !important;
+  background-color: #fff !important;
+} */
+.MuiTabs-root {
+  min-height: 30px !important;
+}
+.btn-info {
+  color: #000 !important;
+  background-color: #e0e0e0 !important;
+}
+.commonButton {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+@media (max-width: 600px) {
+  .operator-small {
+    height: 90px !important;
+    width: 90px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .operator-small {
+    height: 80px !important;
+    width: 80px !important;
+  }
+}
